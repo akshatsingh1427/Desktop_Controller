@@ -3,7 +3,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-# Load dataset
 data = pd.read_csv("data.csv", header=None)
 
 X = data.iloc[:, :-1]   # Landmark features
@@ -25,3 +24,4 @@ print("Model Accuracy:", accuracy)
 pickle.dump(model, open("model.pkl", "wb"))
 
 print("Model saved as model.pkl")
+
