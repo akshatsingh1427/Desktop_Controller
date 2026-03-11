@@ -6,7 +6,6 @@ import numpy as np
 import time
 import screen_brightness_control as sbc
 
-# Load model
 model = pickle.load(open("model.pkl", "rb"))
 
 mpHands = mp.solutions.hands
@@ -123,3 +122,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
