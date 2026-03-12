@@ -20,9 +20,9 @@ model.fit(X_train, y_train)
 accuracy = model.score(X_test, y_test)
 print("Model Accuracy:", accuracy)
 
-# Save model
 pickle.dump(model, open("model.pkl", "wb"))
 
 print("Model saved as model.pkl")
+
 
 
