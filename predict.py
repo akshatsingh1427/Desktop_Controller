@@ -49,9 +49,7 @@ while True:
 
             current_time = time.time()
 
-            # ======================
-            # MOUSE MOVE
-            # ======================
+        
             if prediction == "mouse":
                 x = np.interp(lmList[8][0], [0, img.shape[1]], [0, screen_w])
                 y = np.interp(lmList[8][1], [0, img.shape[0]], [0, screen_h])
