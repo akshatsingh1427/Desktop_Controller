@@ -60,9 +60,7 @@ while True:
                 pyautogui.moveTo(screen_w - curr_x, curr_y)
                 prev_x, prev_y = curr_x, curr_y
 
-            # ======================
-            # LEFT CLICK
-            # ======================
+          
             elif prediction == "left_click":
                 if current_time - last_action_time > cooldown:
                     pyautogui.click()
