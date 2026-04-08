@@ -32,7 +32,7 @@ with open("data.csv", mode='a', newline='') as f:
                     row.append(lm.y)
 
                 row.append(gesture_name)
-                writer.writerow(row)   # 🔥 SAVE IMMEDIATELY
+                writer.writerow(row)
 
                 cv2.putText(img, f"Saving...",
                             (50,50), cv2.FONT_HERSHEY_SIMPLEX,
