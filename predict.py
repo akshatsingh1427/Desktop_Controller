@@ -86,15 +86,11 @@ while True:
             elif prediction == "volume":
                 pyautogui.press("volumeup")
 
-            # ======================
-            # BRIGHTNESS
-            # ======================
+         
             elif prediction == "brightness":
                 sbc.set_brightness('+5')
 
-            # ======================
-            # PLAY / PAUSE
-            # ======================
+           
             elif prediction == "pause":
                 if current_time - last_action_time > cooldown:
                     pyautogui.press("space")
