@@ -66,9 +66,7 @@ while True:
                     pyautogui.click()
                     last_action_time = current_time
 
-            # ======================
-            # RIGHT CLICK
-            # ======================
+
             elif prediction == "right_click":
                 if current_time - last_action_time > cooldown:
                     pyautogui.rightClick()
