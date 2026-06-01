@@ -5,7 +5,7 @@ import pickle
 
 data = pd.read_csv("data.csv", header=None)
 
-X = data.iloc[:, :-1]   # Landmark features
+X = data.iloc[:, :-1]  
 y = data.iloc[:, -1]    # Labels
 
 # Split dataset
