@@ -73,7 +73,6 @@ while True:
                     last_action_time = current_time
 
             # DRAG
-            # ======================
             elif prediction == "drag":
                 pyautogui.mouseDown()
 
