@@ -76,7 +76,7 @@ while True:
                 pyautogui.mouseDown()
 
           
-            # VOLUME
+          
             # ======================
             elif prediction == "volume":
                 pyautogui.press("volumeup")
