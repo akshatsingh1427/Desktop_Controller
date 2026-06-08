@@ -77,7 +77,6 @@ while True:
 
           
           
-            # ======================
             elif prediction == "volume":
                 pyautogui.press("volumeup")
 
