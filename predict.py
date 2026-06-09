@@ -90,7 +90,6 @@ while True:
                     pyautogui.press("space")
                     last_action_time = current_time
 
-            # ======================
             # SHOW DESKTOP
             # ======================
             elif prediction == "desktop":
