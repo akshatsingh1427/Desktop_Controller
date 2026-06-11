@@ -90,7 +90,7 @@ while True:
                     pyautogui.press("space")
                     last_action_time = current_time
                     
-            # ======================
+       
             elif prediction == "desktop":
                 if current_time - last_action_time > cooldown:
                     pyautogui.hotkey("win", "d")
