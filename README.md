@@ -19,7 +19,7 @@ The project uses **MediaPipe for hand tracking** and a **Machine Learning model 
 
 ---
 
-# 🧠 Technologies Used
+#  Technologies Used
 
 Python
 OpenCV
