@@ -44,7 +44,7 @@ AI_Gesture_Desktop_Controller/
 ├── data.csv               # Dataset generated from gestures
 ├── model.pkl              # Trained ML model
 │
-├── requirements.txt       # Required libraries
+├── requirements.txt       
 └── README.md              # Project documentation
 ```
 
